@@ -24,3 +24,4 @@ select * from customers;
 
 ``` 
 runscript from ~/eclipse-workspace/mybatis-learn/customers.sql
+```
