@@ -8,7 +8,7 @@
 			<transactionManager type="JDBC" />
 			<dataSource type="POOLED">
 				<property name="driver" value="org.h2.Driver" />
-				<property name="url" value="jdbc:h2:tcp://localhost/~/Documents/projects/eclipse-workspace/mybatis-learn/mybatis-demo" />
+				<property name="url" value="jdbc:h2:tcp://localhost/~/Documents/projects/eclipse-workspace/mybatis-learn/trainingdb" />
 				<property name="username" value="john" />
 				<property name="password" value="john" />
 			</dataSource>
