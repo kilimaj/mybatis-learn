@@ -11,7 +11,7 @@ public class GetCustomersBycity {
 
 	public static void main(String[] args) throws IOException {
 		CustomerDao dao = DaoFactory.getCustomerDao();
-		
+
 		String city = "Dodoma";
 
 		List<Customer> list = dao.getCustomerByCity(city);

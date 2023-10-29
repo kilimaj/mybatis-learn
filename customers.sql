@@ -8,8 +8,11 @@ drop table customers if exists;
  	phone varchar(255) unique
  	);
  	
- insert into customers (name, email, phone) values('New user', 'new@john.co', '64747838829'), ('John', 'john@john.co', '123456789'), 
- ('Juma', 'juma@juma.co', '4357853289'), ('Hellen', 'hellen@john.co', '655443331'),
+ insert into customers (name, email, phone) values 
+ ('New user', 'new@john.co', '64747838829'), 
+ ('John', 'john@john.co', '123456789'), 
+ ('Juma', 'juma@juma.co', '4357853289'), 
+ ('Hellen', 'hellen@john.co', '655443331'),
  ('Glad', 'glad@john.co', '12782666789'); 
 
 select * from customers;
